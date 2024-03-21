@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  display: grid;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +45,41 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #81c784;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.loading {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
 }
